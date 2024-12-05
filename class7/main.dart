@@ -2,7 +2,7 @@
 
 
 void main() {
-var myList = [0, 'one', 'two', 'three', 'four', 'five'];
+var myList = [0, 'one', 'two', 'three', 'four', 'five', 'seven', 'eight'];
 // replace the item at index '3’
 myList[3] = 3;
 print(myList);
