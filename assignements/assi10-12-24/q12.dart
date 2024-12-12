@@ -16,7 +16,8 @@ void main() {
 //   print(stdNames);
 
   var revstdNames = stdNames.reversed; //reversing a list but result in variable
-  var newname=revstdNames.toList(growable: false); // converting the above variable into list
+  var newname = revstdNames.toList(
+      growable: false); // converting the above variable into list
   print(newname);
   print(stdNames);
 }
