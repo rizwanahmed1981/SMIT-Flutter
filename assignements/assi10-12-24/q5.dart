@@ -8,8 +8,10 @@ Map<String, String> person = {
 };
 
 void main() {
-  Iterable personDetails = person.keys.where((key) => key.length == 4); //here we used Iterable
+  // final personDetails = person.keys.where((key) => key.length == 4); //here we used Iterable
+  final personDetails = person.keys.where((key) => key.length == 4).toList(); //here we used Iterable
   print(personDetails); //(name, city)
+  print(personDetails.runtimeType); //(name, city)
 }
 
 //we made a Map named person and 

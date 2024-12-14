@@ -10,7 +10,7 @@ Map<String, dynamic> world = {
     "language": "Urdu"
   },
   "Turkey": {
-    "capitalCity": "Istanbol",
+    "capitalCity": "Istambol",
     "currency": "Lira",
     "language": "Turkish"
   },
@@ -22,6 +22,7 @@ Map<String, dynamic> world = {
 };
 
 void main(){
-  print(world["Pakistan"]); //{capitalCity: IslamAbad, currency: PakRupees, language: Urdu}
-  print(world["Turkey"]); //{capitalCity: Istanbol, currency: Lira, language: Turkish}
+  print(world["Pakistan"]["currency"]); //{capitalCity: IslamAbad, currency: PakRupees, language: Urdu}
+  print(world["Pakistan"]["language"]); //{capitalCity: Istanbol, currency: Lira, language: Turkish}
+//  print('the cacpital city of pakistan is ${world["Pakistan"]["currency"]} and currency is $world["Pakistan"]["language"]');
 }
