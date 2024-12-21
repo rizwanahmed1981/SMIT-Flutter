@@ -1,0 +1,34 @@
+List Problems:
+Find Maximum:
+
+Given a list of numbers, manually find the largest number using only if-else and List methods.
+Example: [5, 12, 7, 20, 3] → Output: 20.
+Remove First Element:
+
+Create a list of strings and remove the first element using List methods.
+Example: ["apple", "banana", "cherry"] → Output: ["banana", "cherry"].
+Check Membership:
+
+Given a list of integers, check if a specific number exists in the list using if-else and List methods.
+Example: List: [10, 15, 20, 25], Number: 15 → Output: "15 exists in the list."
+Map Problems:
+Add Key-Value Pair:
+
+Start with an empty Map and add a key-value pair using Map methods.
+Example: {} → Add "name": "Rizwan" → Output: {"name": "Rizwan"}.
+Check Key Existence:
+
+Create a Map of fruits and their colors. Check if a specific fruit exists as a key in the Map.
+Example: Map: {"apple": "red", "banana": "yellow"} → Check: "apple" → Output: "apple exists in the map."
+Modify a Value:
+
+Create a Map of students and their marks. Update the marks of a student using Map methods.
+Example: {"Ali": 85, "Ahmed": 90} → Update "Ahmed" to 95 → Output: {"Ali": 85, "Ahmed": 95}.
+Filter Map by Condition:
+
+Given a Map of products and their prices, create a new Map of only the products costing more than 50.
+Example: {"item1": 30, "item2": 70, "item3": 100} → Output: {"item2": 70, "item3": 100}.
+Mixed Problem:
+List of Maps:
+Create a List of Maps where each Map contains a name and age. Find the names of all people aged 18 or older using if-else and Map methods.
+Example: [{"name": "Ali", "age": 17}, {"name": "Sara", "age": 19}] → Output: ["Sara"].

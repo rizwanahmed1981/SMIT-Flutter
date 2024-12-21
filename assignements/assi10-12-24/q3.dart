@@ -19,4 +19,6 @@ void main(){
   print(daysName); //["Monday"];
   daysName.removeLast();
   print(daysName); //[]
+
+  
 }

@@ -17,3 +17,6 @@ void main(){
   //orignal numList2
   print(numList2);
 }
+
+
+// do it with from method

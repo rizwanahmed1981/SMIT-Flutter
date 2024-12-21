@@ -10,7 +10,8 @@ List<int> numbers7 =[1,2,3,5,6,7,6,5,4,33];
 
 int n = 3;
 void main(){
-var nList = numbers7.sublist(0,n);
+// var nList = numbers7.sublist(0,n);
+final nList = numbers7.sublist(0,n);
 print(nList);
 }
 
