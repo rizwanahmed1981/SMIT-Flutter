@@ -13,15 +13,14 @@ Number is : 5 and cube of the 5 is :125
 //imported dart:math to perform pow();
 import 'dart:math';
 
-List<int> numbers = [2,6,8,9,4,7,5];
+List<int> numbers = [2, 6, 8, 9, 4, 7, 5];
 
-void main(){
+void main() {
   // performing itration on above list to get cubes of the numbers in list;
- for(var num in numbers){
-final cube = pow(num, 3).toInt();
+  for (var num in numbers) {
+    final cube = pow(num, 3).toInt();
 
 //printing the final statement.;
-print("Number is : $num and cube of the $num is : $cube");
-}
-
+    print("Number is : $num and cube of the $num is : $cube");
+  }
 }
