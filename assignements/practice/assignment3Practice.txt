@@ -1,0 +1,50 @@
+
+#	Question	Example Input/Output
+1	Write a program that prints odd numbers in a list using a for loop.	
+Input: [1, 2, 3, 4, 5]
+Output: 1 3 5
+
+2	Find the factorial of a number using a for or while loop.	
+Input: 6
+Output: Factorial of 6 is 720
+
+3	Calculate the product of all digits in a number using a while loop.	
+Input: 234
+Output: Product of digits: 24
+
+4	Find the smallest element in a list using a for loop.	
+Input: [3, 9, 1, 6]
+Output: Smallest element: 1
+
+5	Write a program that prints the multiplication table of a number using a for loop.	Input: 3
+Output: 3 x 1 = 3 to 3 x 10 = 30
+
+6	Count the number of consonants in a string using a for loop and if-else condition.	Input: "Dart Programming"
+Output: Number of consonants: 12
+
+7	Find the second largest and second smallest elements in a list using a for loop.	Input: [3, 9, 1, 6]
+Output: Second largest: 6, Second smallest: 3
+
+8	Calculate the sum of positive numbers in a list using a for loop and if-else.	Input: [-3, 5, -1, 7]
+Output: Sum of positive numbers: 12
+
+9	Assign grades to employees based on their performance (list of scores). Use a Map and calculate grades based on average score criteria.	Input: {'Ali': [85, 90, 78]}
+Output: Ali - Grade B
+
+10	Display the squares of numbers up to a given integer.	Input: 4
+Output: 1^2 = 1, 2^2 = 4, 3^2 = 9, 4^2 = 16
+
+11	Display a right-angled triangle pattern with the @ symbol.	
+Output: @, @@, @@@, @@@@
+
+12	Display a number pattern incrementally.	Output: 1, 12, 123, 1234
+
+13	Display a repeating number pattern in rows.	
+Output: 1, 22, 333, 4444
+
+14	Write a program to verify user login credentials using a list of predefined email and password combinations.	
+Output: User login successful or prompt for credentials again.
+
+15	Print all numbers greater than 10 in a list using a for loop and if-else.	
+Input: [5, 11, 20]
+Output: 11 20

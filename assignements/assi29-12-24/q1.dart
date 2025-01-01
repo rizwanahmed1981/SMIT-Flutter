@@ -27,8 +27,7 @@ void main() {
     19,
     20
   ];
-  List<int> evenNumbers =
-      []; // emptylist of even numbers to store even numbers;
+  List<int> evenNumbers = []; // emptylist of even numbers to store even numbers;
 
   //for in loop  to check and add even numbers in empty even numbers list;
   for (int num in numbers) {
