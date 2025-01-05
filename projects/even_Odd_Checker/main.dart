@@ -1,7 +1,3 @@
-//types of function
-
-//void
-
 import 'dart:io';
 
 void main() {
