@@ -1,11 +1,11 @@
 import 'dart:io';
 
-String? adminEmail = 'kamran@admin.com';
+String? adminEmail = 'razykan@admin.com';
 String? adminPassword = '123456';
 bool isUserLogin = true;
 
 List<Map<String, dynamic>> userDetails = [
-  {'user': 'kamran', 'password': '12345'},
+  {'user': 'nadeem', 'password': '12345'},
   {'user': 'mohsin', 'password': '12345'},
   {'user': 'osman', 'password': '12345'}
 ];
